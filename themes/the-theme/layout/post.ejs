@@ -1,0 +1,33 @@
+<%- partial('partial/nav') %>
+
+<h1><%- page.title %></h1>
+
+<p>
+    <small>
+        <a href="/" title="<%- page.author %>"><%- page.author %></a>,
+        <%= new Date(page.date).toDateString() %>
+    </small>
+</p>
+
+<br>
+
+<%- page.content %>
+
+<div id="disqus_thread"></div>
+
+<%- partial('partial/nav') %>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://loicguychard.com/<%- page.path %>';
+        this.page.identifier = '<%- page.title %>';
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://loicguychard-com.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

@@ -1,0 +1,21 @@
+<section>
+    <h2>Blog</h2>
+    <p>
+        <ul>
+            <% site.posts.each(function(post) { %>
+                <li>
+                    <%= new Date(post.date).toDateString() %>
+                    -
+                    <a href="<%- post.path %>" title="<%= post.title %>">
+                        <%= post.title %>
+                    </a>
+                </li>
+            <% }) %>
+        </ul>
+    </p>
+    <p>
+        <a href="/atom.xml" target="blank">
+            <small>RSS Feed</small>
+        </a>
+    </p>
+</section>
