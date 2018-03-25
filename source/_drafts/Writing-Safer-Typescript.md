@@ -1,6 +1,5 @@
 ---
 title: Writing Safer Typescript
-tags: tech programming code typescript
 author: Loïc Guychard
 date: 2018-01-07 13:27:24
 ---

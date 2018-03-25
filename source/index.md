@@ -6,7 +6,7 @@ layout: index
 
 # Loïc Guychard
 
-Hi! I'm a software engineer, jazz upright bassist, cycling enthusiast, solo hiker and general lover of the outdoors. I'm currently based in Paris, but on January 15th, 2018, I will embark on a year of nomadic adventures through Europe and North America.
+Hi! I'm a software engineer, jazz upright bassist, cycling enthusiast, solo hiker and general lover of the outdoors. I'm currently enjoying a year of nomadic adventures through Europe and North America.
 
 ## Get in Touch
 
