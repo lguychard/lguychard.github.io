@@ -12,9 +12,9 @@ layout: index
 
 A self-driven and passionate software craftsman, I'm equally at home building robust solutions to complex problems or fostering best practices, efficient communication and processes within a team.
 
-**Technologies**: Typescript, Javascript, node.js, angular, react, express.js, Python, Flask, functional programming, TDD, continuous integration
+**Technologies**: Typescript & Javascript ecosystems, Python, TDD & continuous integration
 
-**Languages**: Full working proficiency in French & English. Notions of Spanish.
+**Languages**: French native, English bilingual, notions of Spanish.
 
 **Methodologies**: Certified ScrumAlliance Scrum Master. Fluent in agile methodologies.
 
