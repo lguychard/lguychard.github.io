@@ -78,6 +78,9 @@ theme: the-theme
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  repo: git@github.com:lguychard/lguychard.github.io.git
+  branch: master
+  message: deploy
 
 # RSS FEED
 # feed:
